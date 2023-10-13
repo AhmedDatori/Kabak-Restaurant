@@ -57,4 +57,17 @@ document.querySelector("#close-preview").onclick=()=>{
   previewBox.forEach(close=>{
     close.classList.remove('active');
     });
-}
+};
+
+
+
+var swiper = new Swiper(".menu-slider", {
+  grapCursor:true,
+  loop:true,
+  centeredSlides:true,
+  autoHeight: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
