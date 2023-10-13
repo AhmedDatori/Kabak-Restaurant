@@ -268,6 +268,7 @@ section{
 
 .food .slide img{
     height: 25rem;
+    width: 30rem;
     margin-bottom: 1rem;
 }
 .food .slide h3{
@@ -305,6 +306,7 @@ section{
 }
 .food-preview-container .food-preview img{
     height: 25rem;
+    width: 30rem;
     margin-top: .5rem;
 }
 .food-preview-container .food-preview h3{
